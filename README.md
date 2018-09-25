@@ -3,7 +3,7 @@
 # install developer tools
 
 # create workspace folder
-cd ~ && mkdir workspace && cd workspace
+cd ~ && mkdir workspace && cd !*
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
