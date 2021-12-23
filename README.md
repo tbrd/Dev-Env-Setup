@@ -17,11 +17,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 # install git completion
 brew install git bash-completion
 
-# create bash_profile
-
-touch ~/.bash_profile
-cat .bash_profile >> ~/.bash_profile
-
 # git colour config
 
 # git branch name
