@@ -8,3 +8,6 @@ brew install gh
 
 git config --global user.email "thomas.hamshere.clarke@gmail.com"
 git config --global user.name "Thomas Hamshere-Clarke"
+
+nvm install --lts
+npm install -g npm yarn
