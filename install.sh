@@ -1,24 +1,10 @@
-# Dev-Env-Setup
-
-# install developer tools
-
-# create workspace folder
+copy zshrc.template ~/.zshrc
 cd ~ && mkdir workspace && cd !*
-
-# install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-
-# install git completion
+source ~/.zshrc
 brew install git bash-completion
+brew install gh
 
-# git colour config
-
-# git branch name
-
-# install visual code
-
-# setup visual code alias
-
+git config --global user.email "thomas.hamshere.clarke@gmail.com"
+git config --global user.name "Thomas Hamshere-Clarke"
