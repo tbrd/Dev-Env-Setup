@@ -11,3 +11,13 @@ git config --global user.name "Thomas Hamshere-Clarke"
 
 nvm install --lts
 npm install -g npm yarn
+
+brew install --cask chrome
+brew install --cask firefox
+brew install --cask dropbox
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask docker
+brew install --cask cleanshot
+brew install --cask microsoft-teams
+brew install --cask microsoft-outlook
